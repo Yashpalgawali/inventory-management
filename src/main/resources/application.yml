@@ -4,7 +4,7 @@ server:
     context-path: /inventorymanagerest
 spring:
   application:
-    name: inventory-management
+    name: inventorymanagerest
   datasource:
     url: jdbc:mysql://localhost:3399/inventorymanagement
     username: root
