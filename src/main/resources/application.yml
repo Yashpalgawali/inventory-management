@@ -1,0 +1,21 @@
+server:
+  port: 8585
+  servlet:
+    context-path: /inventorymanagerest
+spring:
+  application:
+    name: inventory-management
+  datasource:
+    url: jdbc:mysql://localhost:3399/inventorymanagement
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
